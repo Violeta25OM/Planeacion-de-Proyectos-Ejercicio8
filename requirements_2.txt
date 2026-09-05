@@ -1,0 +1,11 @@
+# ---------------------------------------------------------------------------
+# Frontera Eficiente - Portafolio de Proyectos (Markowitz)
+# Probado con Python 3.11 / 3.12
+# ---------------------------------------------------------------------------
+streamlit>=1.49,<2.0     # width="stretch" en plotly_chart y dataframe
+pandas>=2.2
+numpy>=1.26
+scipy>=1.11
+plotly>=5.22
+openpyxl>=3.1          # lectura del libro .xlsx de origen
+XlsxWriter>=3.2        # exportacion de resultados a Excel
